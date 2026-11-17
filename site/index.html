@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harsh weds Purva – Wedding Invitation</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Great+Vibes&family=Poppins:wght@300;400;500&display=swap">
+<style>
+.nl-wrap,#nl-badge,#nl-card{display:none !important}
+:root{--bg:#4a0a1c;--bg2:#1c040f;--gold:#e9c46a;--gold2:#b8862b;--cream:#fff3d6;--teal:#0e5a5c;--card:rgba(255,243,214,.07);--line:rgba(233,196,106,.4);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#3e0817;--bg2:#150309}}
+:root[data-theme="dark"]{--bg:#3e0817;--bg2:#150309}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box;margin:0}
+body{color:var(--cream);font-family:'Poppins',system-ui,sans-serif;font-weight:300;text-align:center;overflow-x:hidden;
+background:radial-gradient(ellipse at 50% 0%,#7a1431 0%,transparent 55%),radial-gradient(ellipse at 100% 60%,#0e5a5c55 0%,transparent 50%),radial-gradient(ellipse at 0% 90%,#8a1b3a66 0%,transparent 50%),linear-gradient(var(--bg),var(--bg2));background-attachment:fixed}
+.serif{font-family:'Cormorant Garamond',Georgia,serif}
+.script{font-family:'Great Vibes','Cormorant Garamond',cursive}
+.gold{background:linear-gradient(100deg,#b8862b,#fff0a8 30%,#e9c46a 50%,#b8862b 75%,#fff0a8);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:shine 5s linear infinite}
+@keyframes shine{to{background-position:-250% 0}}
+#fx{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+.petal{position:absolute;top:-30px;border-radius:50% 0 50% 0;opacity:.85;animation:fall linear infinite}
+@keyframes fall{0%{transform:translate(0,-30px) rotate(0)}50%{transform:translate(40px,55vh) rotate(180deg)}100%{transform:translate(-20px,110vh) rotate(380deg)}}
+.star{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--gold);box-shadow:0 0 6px var(--gold);animation:tw 3s ease-in-out infinite}
+@keyframes tw{50%{opacity:.1;transform:scale(.4)}}
+main{position:relative;z-index:2}
+section{max-width:560px;margin:0 auto;padding:54px 22px;position:relative}
+h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:34px;margin-bottom:6px}
+.div{display:flex;align-items:center;gap:10px;justify-content:center;margin:10px 0 22px;color:var(--gold)}
+.div:before,.div:after{content:"";height:1px;width:70px;background:linear-gradient(90deg,transparent,var(--gold))}
+.div:after{transform:scaleX(-1)}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s ease,transform .9s ease}
+.rv.in{opacity:1;transform:none}
+.mandala{position:absolute;left:50%;top:50%;width:min(130vw,640px);height:min(130vw,640px);margin:calc(min(130vw,640px)/-2) 0 0 calc(min(130vw,640px)/-2);opacity:.22;animation:spin 90s linear infinite;z-index:-1}
+@keyframes spin{to{transform:rotate(360deg)}}
+.swastik{font-size:54px;color:var(--gold);text-shadow:0 0 24px #e9c46a99;animation:glow 2.5s ease-in-out infinite}
+@keyframes glow{50%{text-shadow:0 0 40px #ffe08a;transform:scale(1.08)}}
+.cd{display:flex;gap:10px;justify-content:center}
+.cd div{background:var(--card);border:1px solid var(--line);border-radius:14px;width:74px;padding:14px 0;backdrop-filter:blur(4px);box-shadow:0 0 18px #e9c46a1f}
+.cd b{display:block;font-family:'Cormorant Garamond',serif;font-size:34px;color:var(--gold)}
+.cd span{font-size:11px;letter-spacing:1.5px;text-transform:uppercase}
+.ev{display:flex;align-items:center;gap:14px;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0;backdrop-filter:blur(4px);transition:transform .3s,box-shadow .3s}
+.ev:hover{transform:translateY(-4px) scale(1.01);box-shadow:0 8px 30px #e9c46a33}
+.ev .ic{font-size:30px;width:54px;height:54px;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#0e5a5c,#06292b);border:1px solid var(--gold)}
+.ev h3{font-family:'Cormorant Garamond',serif;font-size:24px;color:var(--gold)}
+.ev small{display:block;font-size:13px;opacity:.85}
+.ev small b{color:var(--cream);font-weight:400}
+.ev .t{margin-left:auto;text-align:right;font-size:13px;white-space:nowrap;line-height:1.5}
+a.btn{display:inline-block;text-decoration:none;border:1px solid var(--gold);color:var(--gold);padding:12px 26px;border-radius:30px;margin:6px;font-size:14px;transition:.3s}
+a.btn.fill{background:linear-gradient(135deg,#f3d27a,#b8862b);color:#3a0714;font-weight:500}
+a.btn:hover{transform:translateY(-3px);box-shadow:0 6px 24px #e9c46a66}
+footer{position:relative;z-index:2;padding:30px 20px 60px;font-size:13px;opacity:.9}
+.row3{display:flex;justify-content:space-between;gap:6px;font-size:12px;color:var(--gold);margin-bottom:18px}
+.archw{position:relative;width:236px;margin:34px auto}
+.archw:before{content:"";position:absolute;inset:-12px;border:2px dashed var(--gold);border-radius:130px 130px 22px 22px;opacity:.8}
+.arch{height:316px;border-radius:118px 118px 12px 12px;border:3px solid var(--gold);overflow:hidden;box-shadow:0 0 44px #e9c46a66}
+.arch img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.nm{font-size:clamp(42px,12vw,60px);line-height:1.15;margin:4px 0}
+.pb{font-size:clamp(46px,14vw,70px);line-height:1.2;margin:8px 0 14px}
+.sm{font-size:14px;opacity:.88;margin:4px 0 12px;line-height:1.7}
+.big{font-size:20px;line-height:1.6}
+
+/* ===== COVER ===== */
+#cover{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.door{position:absolute;top:0;bottom:0;width:50%;transition:transform 1.4s cubic-bezier(.7,0,.2,1);background:radial-gradient(circle at 50% 50%,#8a1b3a,#3a0714 70%)}
+.door:after{content:"";position:absolute;inset:14px;border:2px solid var(--gold);opacity:.7;border-radius:6px}
+#dl{left:0}
+#dr{right:0}
+#cover.open #dl{transform:translateX(-100%)}
+#cover.open #dr{transform:translateX(100%)}
+#cover.open .seal{transform:scale(2.4);opacity:0;pointer-events:none}
+#cover.gone{display:none}
+.seal{position:relative;z-index:3;text-align:center;padding:20px;transition:all .7s ease}
+.seal button{font:inherit;cursor:pointer;border:1px solid var(--gold);background:linear-gradient(135deg,#f3d27a,#b8862b);color:#3a0714;padding:13px 30px;border-radius:30px;font-weight:500;letter-spacing:.5px;animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 #e9c46a99}100%{box-shadow:0 0 0 22px transparent}}
+@keyframes rise{from{opacity:0;transform:translateY(24px) scale(.92)}}
+
+/* Golden circle with names */
+.name-circle{width:240px;height:240px;margin:14px auto 18px;border-radius:50%;border:2px solid var(--gold);
+background:radial-gradient(circle,#5e0d24 0%,#2a0510 100%);
+box-shadow:0 0 30px rgba(233,196,106,.3),inset 0 0 18px rgba(233,196,106,.2);
+display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;animation:rise 1.6s ease both}
+.name-circle::before{content:"";position:absolute;inset:7px;border-radius:50%;border:1px dashed rgba(233,196,106,.65);pointer-events:none}
+.name-circle .c-name{font-size:46px;line-height:1.05}
+.name-circle .c-weds{font-size:20px;letter-spacing:2px;color:var(--cream);margin:2px 0 4px;font-style:italic}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+/* ===== MOBILE ===== */
+@media (max-width:600px){
+  html,body{width:100%;max-width:100%;overflow-x:clip}
+  body{background-attachment:scroll}
+  main,footer{width:100%}
+  section{width:100%;max-width:560px;padding:42px 16px}
+  section:first-of-type{padding-top:48px !important}
+  h2{font-size:clamp(27px,7vw,34px)}
+  .row3{flex-wrap:wrap;justify-content:center;column-gap:12px;row-gap:5px;font-size:11px}
+  .nm{font-size:clamp(38px,11vw,54px);overflow-wrap:anywhere}
+  .pb{font-size:clamp(40px,12vw,60px)}
+  .big{font-size:18px;line-height:1.65}
+  .sm{font-size:13px;overflow-wrap:anywhere}
+  .archw{width:min(236px,72vw)}
+  .arch{height:auto;aspect-ratio:236/316}
+  .cd{gap:clamp(5px,2vw,10px)}
+  .cd div{width:clamp(58px,19vw,74px);padding:11px 2px}
+  .cd b{font-size:clamp(26px,8vw,34px)}
+  .cd span{font-size:9px;letter-spacing:1px}
+  .ev{width:100%;gap:10px;padding:13px 11px;align-items:center}
+  .ev .ic{width:44px;height:44px;font-size:25px}
+  .ev .ic svg{width:29px;height:29px}
+  .ev h3{font-size:clamp(19px,5.2vw,23px)}
+  .ev small{font-size:11px;line-height:1.5;overflow-wrap:anywhere}
+  .ev .t{margin-left:auto;flex:0 0 auto;max-width:36%;font-size:10px;line-height:1.5;white-space:normal;overflow-wrap:anywhere}
+  a.btn{padding:11px 17px;margin:5px 3px;font-size:12px}
+  footer{padding:26px 16px 46px;overflow-wrap:anywhere}
+  .seal .serif{overflow-wrap:anywhere}
+  .seal button{padding:12px 23px;font-size:14px}
+  .name-circle{width:220px;height:220px}
+  .name-circle .c-name{font-size:42px}
+  .door:after{inset:9px}
+  .mandala{width:min(130vw,560px);height:min(130vw,560px)}
+}
+@media (max-width:380px){
+  section{padding-left:12px;padding-right:12px}
+  .ev{gap:7px;padding:11px 8px}
+  .ev .ic{width:38px;height:38px}
+  .ev .t{max-width:34%;font-size:9px}
+  .ev small{font-size:10px}
+  .row3{font-size:10px}
+  .cd div{width:21vw}
+  a.btn{padding:10px 13px}
+}
+</style>
+</head>
+<body>
+<div id="fx"></div>
+
+<div id="cover">
+  <div class="door" id="dl"></div><div class="door" id="dr"></div>
+  <div class="seal">
+    <div class="swastik" style="font-size:44px">卐</div>
+    <div class="serif" style="font-size:17px;color:var(--gold)">Shri Mahaviraya Namah</div>
+    <div class="name-circle">
+      <div class="c-name script gold">Harsh</div>
+      <div class="c-weds serif">weds</div>
+      <div class="c-name script gold">Purva</div>
+    </div>
+    <div class="serif" style="margin:0 0 16px;font-size:17px">Friday, 4 December 2026</div>
+    <button id="openBtn">Open Invitation ✉</button>
+  </div>
+</div>
+
+<main>
+<section style="padding-top:64px">
+  <svg class="mandala" viewBox="-100 -100 200 200" id="m1"></svg>
+  <div class="row3 serif rv"><span>Shri Adinathaya Namah</span><span>Shri Parshvanathaya Namah</span><span>Shri Mahaviraya Namah</span></div>
+  <div class="swastik">卐</div>
+  <p class="serif sm rv" style="font-size:18px">Mangalam Bhagwan Veero, Mangalam Gautamo Ganee,<br>Mangalam Kundakundadyo, Jaindharmostu Mangalam.</p>
+  <div class="archw rv"><div class="arch"><img alt="Harsh and Purva" src="img.jpg"></div></div>
+  <p class="serif big rv">Dear Family &amp; Loved Ones,</p>
+  <p class="sm rv">With the divine grace of Shri Jain Baag Chaubisi, Kairana,<br><b style="color:var(--gold);font-weight:400">Mrs. Meenu Jain &amp; Mr. Kamal Jain</b><br>joyfully announce the wedding of their beloved son</p>
+  <div class="nm script gold rv">Harsh Jain</div>
+  <p class="sm rv">(Grandson of the late Mrs. Urmila Jain &amp; the late Mr. Prem Chand Jain)</p>
+  <div class="div rv serif">with</div>
+  <div class="nm script gold rv">Purva Jain</div>
+  <p class="sm rv">(Daughter of Mrs. Pooja Jain &amp; Mr. Tanuj Kumar Jain, resident of Saharanpur)</p>
+  <div class="pb script gold rv">Parinay Bandhan</div>
+  <p class="serif sm rv" style="font-size:17px;margin-top:-6px">The Wedding Ceremony</p>
+  <p class="sm rv">On this auspicious occasion, you are warmly invited to join us for the celebrations as per the programme. May your presence and heartfelt blessings fill the new couple’s life with joy and light.</p>
+</section>
+
+<section>
+  <h2 class="gold rv">Countdown to the Baraat</h2><div class="div rv">❖</div>
+  <div class="cd rv">
+    <div><b id="d">0</b><span>Days</span></div><div><b id="h">0</b><span>Hours</span></div>
+    <div><b id="m">0</b><span>Mins</span></div><div><b id="s">0</b><span>Secs</span></div>
+  </div>
+</section>
+
+<section>
+  <svg class="rv" viewBox="0 0 300 40" style="width:100%;max-width:360px;margin:0 auto 14px;display:block"><path d="M0 8Q150 32 300 8" fill="none" stroke="#e9c46a" stroke-width="1.5"/><circle cx="12" cy="14" r="9" fill="#fb923c"/><circle cx="12" cy="14" r="3" fill="#fff3d6"/><circle cx="46.5" cy="18.8" r="9" fill="#f59e0b"/><circle cx="46.5" cy="18.8" r="3" fill="#fff3d6"/><circle cx="81" cy="22.2" r="9" fill="#fb923c"/><circle cx="81" cy="22.2" r="3" fill="#fff3d6"/><circle cx="115.5" cy="24.3" r="9" fill="#f59e0b"/><circle cx="115.5" cy="24.3" r="3" fill="#fff3d6"/><circle cx="150" cy="25" r="9" fill="#fb923c"/><circle cx="150" cy="25" r="3" fill="#fff3d6"/><circle cx="184.5" cy="24.3" r="9" fill="#f59e0b"/><circle cx="184.5" cy="24.3" r="3" fill="#fff3d6"/><circle cx="219" cy="22.2" r="9" fill="#fb923c"/><circle cx="219" cy="22.2" r="3" fill="#fff3d6"/><circle cx="253.5" cy="18.8" r="9" fill="#f59e0b"/><circle cx="253.5" cy="18.8" r="3" fill="#fff3d6"/><circle cx="288" cy="14" r="9" fill="#fb923c"/><circle cx="288" cy="14" r="3" fill="#fff3d6"/></svg>
+  <p class="serif sm rv" style="font-size:18px">Remover of obstacles, giver of blessings, O Lords of the Twenty-Four Tirthankaras —<br>our first invitation is to you; may you bless every task.</p>
+  <h2 class="gold rv" style="font-size:40px;margin-top:10px">Wedding Programme</h2>
+  <div class="div rv serif">Auspicious Ceremonies</div>
+
+  <div class="ev rv"><div class="ic"><svg viewBox="0 0 48 48" width="34" height="34"><path d="M14 18h20c3 6 3 16-3 22H17c-6-6-6-16-3-22z" fill="#e9c46a"/><rect x="17" y="14" width="14" height="4" rx="2" fill="#b8862b"/><ellipse cx="24" cy="9" rx="6" ry="7" fill="#8a5a1a"/><path d="M24 4c-6-3-12 0-14 5 6 0 11-1 14-5zM24 4c6-3 12 0 14 5-6 0-11-1-14-5z" fill="#3a9d5d"/><path d="M19 28h10" stroke="#8a1b3a" stroke-width="2"/></svg></div><div><h3>Mandha Pujan</h3><small>Digambar Jain Tyagi Bhawan,<br>Kairana (Shamli)</small></div><div class="t">Wednesday<br>2 December 2026<br>10:00 AM</div></div>
+
+  <div class="ev rv"><div class="ic"><svg viewBox="0 0 48 48" width="34" height="34"><path d="M6 24h36c0 10-8 18-18 18S6 34 6 24z" fill="#e9c46a"/><ellipse cx="24" cy="24" rx="18" ry="5" fill="#f5b700"/><circle cx="18" cy="21" r="3" fill="#f59e0b"/><circle cx="26" cy="19" r="3.5" fill="#fb923c"/><circle cx="31" cy="22" r="2.5" fill="#f59e0b"/></svg></div><div><h3>Haldi</h3><small>Haldi Ceremony</small></div><div class="t">Wednesday<br>2 December 2026<br>1:00 PM</div></div>
+
+  <div class="ev rv"><div class="ic">🐎</div><div><h3>Ghudchadhi</h3><small>Groom’s procession ritual</small></div><div class="t">Friday<br>4 December 2026<br>10:30 AM</div></div>
+
+  <div class="ev rv"><div class="ic">🎺</div><div><h3>Baraat Departure</h3><small>The baraat departs from Chhota Jain Mandir, Kairana for the wedding venue</small></div><div class="t">Friday<br>4 December 2026<br>12:00 PM</div></div>
+</section>
+
+<section>
+  <div class="serif gold rv" style="font-size:28px">Wedding Venue</div><div class="div rv">❖</div>
+  <div class="nm script gold rv">Palm Luxuria</div>
+  <p class="sm rv">Behind Break Point, Kairana Road, Shamli</p>
+  <p class="rv" style="margin-top:14px">
+    <a class="btn fill" href="https://maps.google.com/?q=Palm+Luxuria+Kairana+Road+Shamli" target="_blank" rel="noopener">📍 Directions</a>
+    <a class="btn" href="tel:+919997696761">📞 Call</a>
+    <a class="btn" href="https://wa.me/919997696761?text=Jai%20Jinendra!%20We%20will%20attend%20the%20wedding." target="_blank" rel="noopener">💬 WhatsApp</a>
+  </p>
+</section>
+
+<section>
+  <div class="serif gold rv" style="font-size:28px">With Love &amp; Blessings</div><div class="div rv">❖</div>
+  <p class="serif big rv" style="margin-bottom:10px">Tau Ji – Tai Ji</p>
+  <div class="ev rv" style="justify-content:center;text-align:center"><div><h3>Mr. Mukesh Jain – Mrs. Seema Jain</h3><small>Tau Ji &amp; Tai Ji</small></div></div>
+  <div class="ev rv" style="justify-content:center;text-align:center"><div><h3>Mr. Manoj Jain – Mrs. Veena Jain</h3><small>Tau Ji &amp; Tai Ji</small></div></div>
+</section>
+
+<audio id="bgMusic" loop preload="auto"><source src="audio/music.mp3" type="audio/mpeg"></audio>
+<button id="musicBtn" style="position:fixed;bottom:25px;left:25px;z-index:999999;padding:12px 20px;border-radius:30px;background:#222;color:#fff;border:none;cursor:pointer">♫ Play Music</button>
+<script>
+var music=document.getElementById("bgMusic"),mbtn=document.getElementById("musicBtn");
+async function startMusic(){try{await music.play();mbtn.innerHTML="♫ Pause Music"}catch(e){mbtn.innerHTML="♫ Play Music"}}
+window.addEventListener("load",startMusic);
+document.addEventListener("click",function(){if(music.paused)startMusic()},{once:true});
+mbtn.addEventListener("click",async function(e){e.stopPropagation();if(music.paused){await startMusic()}else{music.pause();mbtn.innerHTML="♫ Play Music"}});
+</script>
+</main>
+
+<footer>
+  <p class="sm">With warm regards<br><b style="color:var(--gold);font-weight:400">Manoj Kumar Sambhav Jain · Mukesh Kumar Kamal Jain</b></p>
+  <p class="sm">Humbly yours, you and all of us</p>
+  <p class="sm" style="margin-top:14px">No phone calls, no excuses — do come to our brother’s wedding, and come in style!<br>– Kirti Jain, Sambhav Jain</p>
+  <div class="gold serif" style="font-size:26px;margin-top:14px">Jai Jinendra</div>
+</footer>
+
+<script>
+(function(){
+var NS='http://www.w3.org/2000/svg',svg=document.getElementById('m1');
+function mk(r,n,sc,w){for(var i=0;i<n;i++){var p=document.createElementNS(NS,'path');
+p.setAttribute('d','M0 -'+r+' C '+(r*.22)+' -'+(r*.7)+' '+(r*.22)+' -'+(r*.3)+' 0 0 C -'+(r*.22)+' -'+(r*.3)+' -'+(r*.22)+' -'+(r*.7)+' 0 -'+r+'Z');
+p.setAttribute('fill','none');p.setAttribute('stroke','#e9c46a');p.setAttribute('stroke-width',w);
+p.setAttribute('transform','rotate('+(i*360/n)+') scale('+sc+')');svg.appendChild(p)}}
+mk(95,16,1,.5);mk(80,12,1,.6);mk(60,8,1,.7);mk(38,8,1,.8);
+[98,70,48,20].forEach(function(r){var c=document.createElementNS(NS,'circle');c.setAttribute('r',r);c.setAttribute('fill','none');c.setAttribute('stroke','#e9c46a');c.setAttribute('stroke-width','.4');svg.appendChild(c)});
+var fx=document.getElementById('fx'),cols=['#f59e0b','#e11d48','#e9c46a','#fb923c'];
+for(var i=0;i<22;i++){var p=document.createElement('div');p.className='petal';var s=8+Math.random()*10;
+p.style.cssText='left:'+Math.random()*100+'%;width:'+s+'px;height:'+s*1.3+'px;background:'+cols[i%4]+';animation-duration:'+(9+Math.random()*10)+'s;animation-delay:-'+Math.random()*16+'s';fx.appendChild(p)}
+for(i=0;i<30;i++){var t=document.createElement('div');t.className='star';t.style.cssText='left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;animation-delay:-'+Math.random()*3+'s;animation-duration:'+(2+Math.random()*3)+'s';fx.appendChild(t)}
+var cv=document.getElementById('cover');
+document.getElementById('openBtn').onclick=function(){cv.classList.add('open');document.body.style.overflow='';setTimeout(function(){cv.classList.add('gone')},1500)};
+document.body.style.overflow='hidden';
+var els=document.querySelectorAll('.rv');
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.15});els.forEach(function(el,i){el.style.transitionDelay=(i%3)*.12+'s';io.observe(el)})}else{els.forEach(function(el){el.classList.add('in')})}
+var target=new Date('2026-12-04T12:00:00+05:30');
+function tick(){var t=Math.max(0,target-new Date()),f=Math.floor;
+document.getElementById('d').textContent=f(t/864e5);document.getElementById('h').textContent=f(t/36e5%24);
+document.getElementById('m').textContent=f(t/6e4%60);document.getElementById('s').textContent=f(t/1e3%60)}
+tick();setInterval(tick,1000);
+})();
+</script>
+</body>
+</html>
